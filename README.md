@@ -1,4 +1,4 @@
 # Banking-Management-System
 
-### CLI Banking Management System using Java
+## CLI Banking Management System using Java
 
