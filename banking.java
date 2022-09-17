@@ -9,8 +9,8 @@ public class banking
 		try
 		{
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-			String conurl="jdbc:sqlserver://172.17.144.108;databaseName=s1941012191";
-			con=DriverManager.getConnection(conurl,"s1941012191","Iter1234#");
+			String conurl="jdbc:sqlserver://server_address;databaseName=your login id";
+			con=DriverManager.getConnection(conurl,"your login id","your password");
 			System.out.println("Connection is established");
 			stmt=con.createStatement();
 			BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
